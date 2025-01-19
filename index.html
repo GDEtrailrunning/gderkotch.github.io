@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> GDE - Trail Running</title>  
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="gde1.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+ <div class="container">
+    <div class="main-container">
+        <div class="column-container 1">     
+            <img class="imagen-chica" src="Montaña blanco.png" alt="Montaña Blanco">
+            </div>
+        <div class="column-container 1">     
+            <h1><br> GDE <br> TRAIL RUNNING <br>Alumno: Roberto Kotch</h1>
+        </div>
+        </div>
+    <h2> OBJETIVO MENSUAL: Mejorar la cadencia.</h2>
+    <h2> FASE: Adquisición. </h2>
+    <!--<h2 id ="pageTitle">PRÓXIMA CARRERA: </h2>          -->
+    <h2 id="result"></h2>
+    
+    <div class="sub-container">
+        <h4>SEMANA 1
+            <br>Objetivo semanal: Buscar buenas sensaciones. </br>
+        </h4>
+        <p>Entrada en calor </p>   
+        <p> 4 vueltas x 13 repeticiones </p>
+        <div class="image-container">  
+        <video width="100%" class="responsive-video" style="margin-top: 35px;" controls>            
+            <source src="Video1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="image-container">  
+        <video width="100%"  class="responsive-video" style="margin-top: 35px;" controls>
+            <source src="Video2.mp4" type="video/mp4">
+            </video>
+        </div>
+    <div> <p> Running </p>
+    </div>    
+    <div class="column-container 1">           
+        <div class="column">
+            <h3>Dia 1
+            <br> Lunes: 11 km trail senderos bajos. </h3>
+            <p> -2 km fuertes. </p>
+            <p> -2 km, 20" fuertes x 20" suaves, senderos bajos. </p>
+            <p> -3 km subidas fuertes + bajadas controladas. </p>
+            <p> -4 km buenas sensaciones. </p>
+        </div><div class="column">
+            <h3>Dia 2
+            <br> Miércoles: 13 km trail senderos bajos. </h3>
+            <p> -7 km de menor a mayor. </p>
+            <p> -6 km en el mejor tiempo posible. </p>
+        </div>
+        <div class="column">
+            <h3>Dia 3                          
+            <br> Viernes: 11 km calle, pasadas. </h3>
+            <p> -2 km ágiles. </p>
+            <p> -3 km, 5 series x 300m fuertes x 300m suaves. </p>
+            <p> -4 km, 10 series x 300m fuertes x 100m suaves en subida. </p>
+            <p> -2 km buenas sensaciones. </p>
+        </div>
+        <div class="column">
+            <h3>Dia 4
+            <br> Sábado: 17 km trail Arco. </h3>
+            <p> -2 km de menor a mayor. </p>
+            <p> -3 km subimos, 300m fuerte x 50m bajamos suaves. </p>
+            <p> -5 km bajas pulsaciones. </p>
+            <p> -7 km al mejor ritmo posible, donde quede. </p>
+        </div>
+    </div>
+
+    <div class="small-paragraph-container">
+        <p> Método de recuperación </p>
+        <p> - Masaje con rolo detras de rodilla y tensores de la fascia lata. </p>     
+    </div> 
+    <!--<div class="image-container">  
+        <video width="100%"  class="responsive-video" style="margin-top: 35px;" controls>
+            <source src="Video3.mp4" type="video/mp4">
+            </video>
+        </div> -->
+                        
+    <div id="column-container 3">
+    <canvas id="myChart-line-1"></canvas>
+    </div>
+            
+    <div class="sub-container">
+        <h4>SEMANA 2
+            <br>Objetivo semanal: .</br>
+        </h4>
+        <p>Entrada en calor </p>   
+        <p> 4 vueltas x 13 repeticiones </p>
+        <div class="image-container">  
+            <video width="100%" class="responsive-video" style="margin-top: 35px;" controls>            
+            <source src="Video4.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="image-container">  
+            <video width="100%"  class="responsive-video" style="margin-top: 35px;" controls>
+            <source src="Video5.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <div><p> Running </p>
+    </div>
+
+    <div class="column-container 1">           
+        <div class="column">
+            <h3>Dia 1
+            <br> Lunes: 15 km trail Parque de Montaña "series triangulares". </h3>
+            <p> -3 km ágiles. </p>
+            <p> -4 km, 8 series x 200m subida fuerte x pausa pasiva 1'. </p>
+            <p> -2 km, 8 series x 200m bajada fuerte x  pausa pasiva 1'30". </p>
+            <p> -4 km, 8 series x 200m plano fuerte x pausa pasiva 40". </p>
+            <p> -2 km mayor a menor. </p>
+        </div>
+        <div class="column">
+            <h3>Dia 2      
+            <br> Miércoles: 19 km trail Arco "pasadas circulares en subida". </h3>
+            <p> -3 km de menor a mayor.</p>
+            <p> -3 km, 100m ágiles x 200m suaves. </p>
+            <p> -6 km, 200m fuertes subiendo x 150m bajanda suave x 250m fuertes subiendo. </p>
+            <p> -4 km ágiles. </p>
+            <p> -3 km de menor a mayor. </p>
+        </div>
+        <div class="column">
+            <h3>Dia 3 
+            <br> Viernes: 10 km trail Parque de Montaña. </h3>
+            <p> -2 km ágiles. </p>
+            <p> -8 km bajas pulsaciones. </p>
+        </div>    
+        <div class="column">
+            <h3>Dia 4      
+            <br> Sábado: 23 km trail Frías. </h3>
+            <p> -4 km de menor a mayor, aumentando cada 1km. </p>
+            <p> -6 km, 5' ágiles x 1' fuertísimoo x 4' suaves. </p>
+            <p> -6 km bajas pulsaciones. </p>
+            <p> -3 km de menor a mayor. </p>
+            <p> -4 km fuertes.</p>
+        </div>    
+    </div>
+
+     <div class="small-paragraph-container">
+        <p> Método de recuperación </p>
+        <p> - Elongacion de isquiotibiales y automasaje con baston 3' por pierna (repetimos 3 veces la pierna que más nos moleste). </p>
+    </div>  
+
+    <!--<div class="image-container">  
+        <video width="100%"  class="responsive-video" style="margin-top: 35px;" controls>
+            <source src="Video6.mp4" type="video/mp4">
+            </video>
+        </div> -->
+              
+    <div id="column-container 1">
+    <canvas id="myChart-line-2"></canvas>
+    </div>      
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
